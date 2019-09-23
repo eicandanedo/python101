@@ -1,0 +1,9 @@
+Libraries are a collection of procedures, functions, operations, elements that someone else created and you can use in your program. Some libraries are built-in while others need to be installed using command prompt (pip install)
+Some popular libraries include
+os -  used to interact with your underlying operating system (Windows/Linux/Mac)
+random – used to generate random numbers
+math – provides advanced mathematical functions (such as trigonometry)
+datetime – used  when working with dates and times
+pandas  - used for data manipulation and analysis
+requests – used for sending http requests and calling APIs
+scrapy – used for webscrapping 
