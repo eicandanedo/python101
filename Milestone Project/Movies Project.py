@@ -1,6 +1,5 @@
 movies = []
 
-moviesFile = open("movies4.txt","w+")
 
 def menu():
     user_input = 'add'
@@ -19,11 +18,6 @@ def menu():
                         "Enter 'list' to list songs \n" +
                         "Enter 'quit' to save movies and exit \n")
         
-
-        
-
-
-
 def add_movie():
     name = input("Enter the movie name: ")
     director = input("Enter the movie director: ")
@@ -42,11 +36,5 @@ def list_movies():
         print(f"Director: {movie['director']}")
         print(f"Release year: {movie['year']} \n\n")
 
-def save_movies():
-    for movie in movies:
-        print(f"Name: {movie['name']}")
-        print(f"Director: {movie['director']}")
-        print(f"Release year: {movie['year']}")
-        quit()
 
 menu()
