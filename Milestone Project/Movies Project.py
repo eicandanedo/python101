@@ -9,8 +9,6 @@ def menu():
             add_movie()
         elif user_input == 'list':
             list_movies()
-        elif user_input == 'save':
-            save_movies()
         else:
             print('Unknown command-please try again.')
 
