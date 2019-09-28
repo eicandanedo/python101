@@ -18,7 +18,7 @@ while guess != secretNumber:
             print("Guess is too high")
         elif guess== secretNumber:
             print(f"{guess} is Correct!")
-        break
+            break
 
     
     except:
