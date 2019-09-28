@@ -1,5 +1,3 @@
-import os
-import time
 movies = []
 
 moviesFile = open("movies4.txt","w+")
