@@ -1,0 +1,62 @@
+movies = []
+
+
+def menu():
+    user_input = 'add'
+
+    while user_input != 'quit':
+        if user_input == 'add':
+            add_movie()
+        elif user_input == 'list':
+            list_movies()
+        elif user_input == 'search':
+            search_movies()
+        else:
+            print('Unknown command, please try again.')
+
+        user_input = input("Enter 'add' to add a movie \n" +
+                        "Enter 'list' to list movie \n" +
+                        "Enter 'search' to search a movie \n" +
+                        "Enter 'quit' to save movies and exit \n").lower()
+        
+def add_movie():
+    #collecting user inputs for name, director, and year movie released
+    name = input("Enter the movie name: ")
+    director = input("Enter the movie director: ")
+    year = input("Enter the movie release year: ")
+
+    #saving user inputs to text file. We are writing to file but not reading from it.
+    movies_file = open("movies.txt", "a+")
+    movies_file.write(f"{name}, {director}, {year}\n")
+    movies_file.close()
+
+    
+    #appending dictionary to the list titled movies
+    movies.append({
+        'name': name,
+        'director': director,
+        'year': year
+     
+    })
+    
+
+def list_movies():
+    for movie in movies:
+        print(f"Name: {movie['name']}")
+        print(f"Director: {movie['director']}")
+        print(f"Release year: {movie['year']} \n\n")
+
+def search_movies():
+    #storing search results in list called search results in case multiple movies have same name
+    search_results = []
+    search_by_name = input("Search for movie name: ")
+    for movie in movies:
+        if search_by_name == movie['name']:
+            search_results.append(movie)
+    print(search_results)
+    #clearing search result list so it can be re-used in future searches
+    search_results.clear()
+
+
+
+menu()
