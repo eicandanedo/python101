@@ -6,3 +6,6 @@ phone = phone.replace("-", "")
 
 #print the phone number
 print(phone)
+
+#end program
+input('press any key to quit')
