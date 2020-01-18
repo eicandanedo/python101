@@ -2,7 +2,10 @@
 
 
 address = input("Enter your address: ").upper()
-print(address)
+city = input("Enter your city: ").upper()
+state = input("Enter your state: ").upper()
+
+print(address, city, state)
 
 
 
