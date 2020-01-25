@@ -1,0 +1,17 @@
+#the purpose of this program is to calcuate the tip amount and bill total
+
+#collect inputs from user
+price = float(input("What was the price of the meal: "))
+tip_percent = float(input("Enter percentage to tip: "))
+
+
+#calculations
+tip_percent = (tip_percent)/100 #convert to percent
+tip_amount = price * tip_percent
+total = price + tip_amount
+
+
+#output results to console and quit
+print(f"The tip should be ${tip_amount} ")
+print(f"The total cost is ${total} ")
+input('press any key to quit')
