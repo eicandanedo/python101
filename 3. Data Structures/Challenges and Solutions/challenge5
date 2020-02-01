@@ -1,0 +1,6 @@
+#create list of groceries
+groceries = ['sugar', 'chips', 'water', 'tea', 'pencil']
+
+#loop through every item in list indicating it costs a dollar
+for x in groceries:
+    print(f'{x} costs $1')
