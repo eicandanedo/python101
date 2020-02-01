@@ -1,0 +1,9 @@
+import random
+
+print("Welcome to the DMV. \n")
+
+#ranges follow the same rules as index
+#range(start, stop, skip)
+for x in range(1,101):
+    print(f"Customer number {x} go to booth ",random.randint(1,8))
+ 
