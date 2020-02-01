@@ -21,4 +21,5 @@ print(heros)
 
 
 #additional resources
+#https://www.w3schools.com/python/python_lists.asp
 #https://www.tutorialspoint.com/python/python_lists.htm
