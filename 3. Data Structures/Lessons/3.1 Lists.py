@@ -41,3 +41,5 @@ print(len(cars))
 for car in cars:
   print(car)
 
+  #additional resources
+  #https://www.w3schools.com/python/python_lists.asp
