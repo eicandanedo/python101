@@ -1,0 +1,11 @@
+#create a list named friends
+friends = ['Joey', 'Ross', 'Monica', 'Rachel', 'Chandler', 'Phoebe']
+
+#ask user for their name
+user_name = input('What is your name? ')
+
+#append users name to list
+friends.append(user_name)
+
+#print list 
+print(friends)
