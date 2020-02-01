@@ -1,0 +1,12 @@
+#create vip list
+vip_list = ['Leonardo DiCaprio', 'Camila Cabello',   'Angelina Jolie', 'Shawn Mendes']
+
+#ask user what their name is
+name = input('What is your name: ')
+
+
+#if name is in vip list, they can go to VIP lounge. Otherwise, they will go to guest lounge
+if name in vip_list:
+    print('Welcome to the vip lounge')
+else:
+    print('Welcome to the guest lounge')
