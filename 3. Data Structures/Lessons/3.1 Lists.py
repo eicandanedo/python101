@@ -35,4 +35,5 @@ print('Ford' not in cars)
 
 
 #print number of items in list
-len(cars)
+print(len(cars))
+
