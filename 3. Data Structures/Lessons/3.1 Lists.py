@@ -37,3 +37,7 @@ print('Ford' not in cars)
 #print number of items in list
 print(len(cars))
 
+#you can use a for loop to print each item in a list
+for car in cars:
+  print(car)
+
