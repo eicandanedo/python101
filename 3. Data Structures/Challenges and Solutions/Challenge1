@@ -1,0 +1,7 @@
+#create a list named friends
+#a list requires square brackets
+#each item is separated by a comma
+friends = ['Joey', 'Ross', 'Monica', 'Rachel', 'Chandler', 'Phoebe']
+
+#print the list
+print(friends)
