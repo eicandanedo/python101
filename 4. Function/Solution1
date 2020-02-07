@@ -1,0 +1,13 @@
+#syntax
+#def function_name(arguments):
+    #what the function does
+
+
+#this function will take no arguments. it will simply print hello 5 times
+def yell(x,y = "!!!!!"):
+   print(x.upper(),y)
+
+yell("Its my money and i want it now")
+
+
+
