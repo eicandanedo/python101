@@ -10,14 +10,17 @@ print(f"Hello i am {my_name} the Python Guru")
 
 #we can use escape sequences to print non-literally
 #   \n  creates a new line
-#   \t  creates a tab
-#   \" or \' allows quotations inside a string
-#   \u prints unicode   
-
 print("hello world \nMy name is Monty")
+
+#   \t  creates a tab
 print("hello world \t My name is Monty")
+
+#   \" or \' allows quotations inside a string
 print("My dog barked \"WOOF\" at the mailman")
+
+#   \u prints unicode   
 print("Copyright Symbol: \u00a9")
+print("Smoothies are only 99 \U+20B5) 
 
 
 #   %s acts acts as a placeholder for a string
