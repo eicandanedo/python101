@@ -8,5 +8,5 @@ print(f"Hi {name}, my name is Monty and i like {hobby} too!")
 
 #since inputs are always stored as strings, remember to convert data types whenever necessary. See Lesson 1.0 for review
 birth_year = input("What year were you born? ")
-age = 2019 - int(birth_year)
+age = 2021 - int(birth_year)
 print(f"Are you {age} years old")  
