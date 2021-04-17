@@ -1,19 +1,19 @@
 #the print function prints the given object to the output device
-#an object can be a datatype such as a variable, number, string, etc.
+#an object can be a datatype such as a string, number, variable, etc.
 
 
 #to print a string to the console, use single or double quotations marks
 print('Hello World')
 print("Hello World")
+print('4')
 
-
-
-#to print any other object type, pass the object inside the parenthesis
+#to print a number, pass the number
 print(4)
 
-name = "Jack"
-age = 20
-print(name)
+#to print a variable, pass the variable name
+pet = 'cat'
+age = 4
+print(pet)
 print(age)
 
 
