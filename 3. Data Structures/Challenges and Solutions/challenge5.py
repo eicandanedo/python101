@@ -6,8 +6,10 @@ groceries = { 'chocolate': 2,
               'chips': 1
     }
 
+print(groceries)
 
-#printing dictionary
+
+#adanced printing method. will go over for loops in future lesson
 for x,y in groceries.items():
     print(x,y)
 
